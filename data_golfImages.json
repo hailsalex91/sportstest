@@ -1,0 +1,30 @@
+[
+    {
+        "pk": 1,
+        "model": "roster.golfImage",
+        "fields": {
+            "url_id": "http://image.cdnllnwnl.xosnetwork.com/pics33/640/TY/TYTNPIONJCZLLOL.20140122192639.jpg"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "roster.golfImage",
+        "fields": {
+            "url_id": "http://image.cdnllnwnl.xosnetwork.com/pics32/640/CP/CPTTOWDXROVNZOK.20120628172109.jpg"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "roster.golfImage",
+        "fields": {
+            "url_id": "http://www.uncfinley.com/assets/images/NC%20Rock%20(4).jpg"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "roster.golfImage",
+        "fields": {
+            "url_id": "http://image.cdnllnwnl.xosnetwork.com/pics33/1024/OZ/OZBASGQOYJGZIUU.20130906203037.jpg"
+        }
+    }
+]

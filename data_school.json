@@ -1,0 +1,90 @@
+[
+    {
+		"pk": 1,
+		"model": "roster.school",
+		"fields": {
+			"school_id": 1,
+			"name": "Gary Gilchrist Academy",
+            "city": "Takoma Park",
+			"state": "Maryland",
+			"country": "USA"
+		}
+	},
+    {
+		"pk": 2,
+		"model": "roster.school",
+		"fields": {
+			"school_id": 2,
+			"name": "Athens Drive",
+            "city": "Cary",
+			"state": "North Carolina",
+			"country": "USA"
+		}
+	},
+    {
+		"pk": 3,
+		"model": "roster.school",
+		"fields": {
+			"school_id": 3,
+			"name": "Page High School",
+            "city": "Greensboro",
+			"state": "North Carolina",
+			"country": "USA"
+		}
+	},
+    {
+		"pk": 4,
+		"model": "roster.school",
+		"fields": {
+			"school_id": 4,
+			"name": "Circle Christian School",
+            "city": "Maitland",
+			"state": "Florida",
+			"country": "USA"
+		}
+	},
+    {
+		"pk": 5,
+		"model": "roster.school",
+		"fields": {
+			"school_id": 5,
+			"name": "Sutton Coldfield",
+            "city": "Sutton Coldfield",
+			"state": "",
+			"country": "England"
+		}
+	},
+    {
+		"pk": 6,
+		"model": "roster.school",
+		"fields": {
+			"school_id": 6,
+			"name": "Southwestern Randolph High School",
+            "city": "Winston Salem",
+			"state": "North Carolina",
+			"country": "USA"
+		}
+	},
+    {
+		"pk": 7,
+		"model": "roster.school",
+		"fields": {
+			"school_id": 7,
+			"name": "",
+            "city": "Antwerp",
+			"state": "",
+			"country": "Belgium"
+		}
+	},
+    {
+		"pk": 8,
+		"model": "roster.school",
+		"fields": {
+			"school_id": 8,
+			"name": "Notre Dame Prep",
+            "city": "Scottsdale",
+			"state": "Arizona",
+			"country": "USA"
+		}
+	}
+]

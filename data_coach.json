@@ -1,0 +1,24 @@
+[
+    {
+		"pk": 1,
+		"model": "roster.coach",
+		"fields": {
+			"pid": 714000001,
+			"firstName": "Jann",
+            "lastName": "Mann",
+            "title": "Head Coach",
+			"isActive": true
+		}
+	},
+    {
+		"pk": 2,
+		"model": "roster.coach",
+		"fields": {
+			"pid": 714000002,
+			"firstName": "Leah",
+            "lastName": "Wigger",
+            "title": "Assistant Head Coach",
+		 	"isActive": true
+		}
+	}
+]
