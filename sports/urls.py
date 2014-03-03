@@ -9,5 +9,5 @@ urlpatterns = patterns('',
     url(r'^home/$',views.home, name='roster_home'),
     url(r'^WomenGolf/$',views.athleteList, name='roster_athlete_list'),
     url(r'^WomenGolf/(?P<pk>\d+)$',views.athleteView, name='roster_athlete'),
-    url(r'^coaches/(?P<pk>\d+)$',views.coachView, name='roster_coach'),
+    url(r'^home/coaches(?P<pk>\d+)$',views.coachView, name='roster_coach'),
 )
