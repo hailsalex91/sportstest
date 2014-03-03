@@ -1,8 +1,7 @@
 {% extends "base.html" %}
 {% block content %}
      <div class="row" style="text-align: center; margin: auto;">
-        <div class="img-thumbnail pagination-centered" style="background-color: #FCFCEE; min-width: 100%; border-top: 0px;
-        border-bottom: 0px; border-right: none; border-left: none;">
+        <div class="img-thumbnail pagination-centered" style="background-color: #FCFCEE; min-width: 100%; border-right: none; border-left: none;">
             <img style="max-width: 80%; height: auto; width: 100%; max-height: 400px; border-radius: 5px;"
                  src="http://isportsweb.com/wp-content/uploads//2013/08/14613_img_4674o-3.jpg" alt="header" />
         </div>
@@ -10,124 +9,126 @@
      <div>
         <div class="row">
             <div class="col-md-5 col-md-offset-1">
-                <h2 style="text-align: center">Men's Sports</h2>
+                <h2>Men's Sports</h2>
             </div>
             <div class="col-md-5">
-                <h2 style="text-align: center">Women's Sports</h2>
+                <h2>Women's Sports</h2>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-5 col-md-offset-1 customGrid">
-                <a href="{{sport2.roster_url}}"><h3 style="text-align: center; color: #FCFCDE;">{{sport2.name}}</h3></a>
+            <div class="col-md-5 col-md-offset-1 customDiv1">
+                <a href="{{sport2.roster_url}}"><h3>{{sport2.name}}</h3></a>
             </div>
-            <div class="col-md-5  customGrid">
-                <a href="{{sport13.roster_url}}"><h3 style="text-align: center; color: #FCFCDE;">{{sport13.name}}</h3></a>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-5 col-md-offset-1 customGrid">
-                <a href="{{sport3.roster_url}}"><h3 style="text-align: center; color: #FCFCDE;">{{sport3.name}}</h3></a>
-            </div>
-            <div class="col-md-5  customGrid">
-                <a href="{{sport14.roster_url}}"><h3 style="text-align: center; color: #FCFCDE;">{{sport14.name}}</h3></a>
+            <div class="col-md-5  customDiv1">
+                <a href="{{sport13.roster_url}}"><h3>{{sport13.name}}</h3></a>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-5 col-md-offset-1 customGrid">
-                <a href="{{sport4.roster_url}}"><h3 style="text-align: center; color: #FCFCDE;">{{sport4.name}}</h3></a>
+            <div class="col-md-5 col-md-offset-1 customDiv1">
+                <a href="{{sport3.roster_url}}"><h3>{{sport3.name}}</h3></a>
             </div>
-            <div class="col-md-5  customGrid">
-                <a href="{% url 'roster_athlete_list' %}"><h3 style="text-align: center; color: #FCFCDE;">{{sport15.name}}</h3></a>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-5 col-md-offset-1 customGrid">
-                <a href="{{sport5.roster_url}}"><h3 style="text-align: center; color: #FCFCDE;">{{sport5.name}}</h3></a>
-            </div>
-            <div class="col-md-5  customGrid">
-                <a href="{{sport16.roster_url}}"><h3 style="text-align: center; color: #FCFCDE;">{{sport16.name}}</h3></a>
+            <div class="col-md-5  customDiv1">
+                <a href="{{sport14.roster_url}}"><h3>{{sport14.name}}</h3></a>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-5 col-md-offset-1 customGrid">
-                <a href="{{sport6.roster_url}}"><h3 style="text-align: center; color: #FCFCDE;">{{sport6.name}}</h3></a>
+            <div class="col-md-5 col-md-offset-1 customDiv1">
+                <a href="{{sport4.roster_url}}"><h3>{{sport4.name}}</h3></a>
             </div>
-            <div class="col-md-5  customGrid">
-                <a href="{{sport17.roster_url}}"><h3 style="text-align: center; color: #FCFCDE;">{{sport17.name}}</h3></a>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-5 col-md-offset-1 customGrid">
-                <a href="{{sport7.roster_url}}"><h3 style="text-align: center; color: #FCFCDE;">{{sport7.name}}</h3></a>
-            </div>
-            <div class="col-md-5  customGrid">
-                <a href="{{sport18.roster_url}}"><h3 style="text-align: center; color: #FCFCDE;">{{sport18.name}}</h3></a>
+            <div class="col-md-5  customDiv1">
+                <a href="{% url 'roster_athlete_list' %}"><h3>{{sport15.name}}</h3></a>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-5 col-md-offset-1 customGrid">
-                <a href="{{sport8.roster_url}}"><h3 style="text-align: center; color: #FCFCDE;">{{sport8.name}}</h3></a>
+            <div class="col-md-5 col-md-offset-1 customDiv1">
+                <a href="{{sport5.roster_url}}"><h3>{{sport5.name}}</h3></a>
             </div>
-            <div class="col-md-5  customGrid">
-                <a href="{{sport19.roster_url}}"><h3 style="text-align: center; color: #FCFCDE;">{{sport19.name}}</h3></a>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-5 col-md-offset-1 customGrid">
-                <a href="{{sport9.roster_url}}"><h3 style="text-align: center; color: #FCFCDE;">{{sport9.name}}</h3></a>
-            </div>
-            <div class="col-md-5  customGrid">
-                <a href="{{sport20.roster_url}}"><h3 style="text-align: center; color: #FCFCDE;">{{sport20.name}}</h3></a>
+            <div class="col-md-5  customDiv1">
+                <a href="{{sport16.roster_url}}"><h3>{{sport16.name}}</h3></a>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-5 col-md-offset-1 customGrid">
-                <a href="{{sport10.roster_url}}"><h3 style="text-align: center; color: #FCFCDE;">{{sport10.name}}</h3></a>
+            <div class="col-md-5 col-md-offset-1 customDiv1">
+                <a href="{{sport6.roster_url}}"><h3>{{sport6.name}}</h3></a>
             </div>
-            <div class="col-md-5  customGrid">
-                <a href="{{sport21.roster_url}}"><h3 style="text-align: center; color: #FCFCDE;">{{sport21.name}}</h3></a>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-5 col-md-offset-1 customGrid">
-                <a href="{{sport11.roster_url}}"><h3 style="text-align: center; color: #FCFCDE;">{{sport11.name}}</h3></a>
-            </div>
-            <div class="col-md-5  customGrid">
-                <a href="{{sport22.roster_url}}"><h3 style="text-align: center; color: #FCFCDE;">{{sport22.name}}</h3></a>
+            <div class="col-md-5  customDiv1">
+                <a href="{{sport17.roster_url}}"><h3>{{sport17.name}}</h3></a>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-5 col-md-offset-1 customGrid">
-                <a href="{{sport12.roster_url}}"><h3 style="text-align: center; color: #FCFCDE;">{{sport12.name}}</h3></a>
+            <div class="col-md-5 col-md-offset-1 customDiv1">
+                <a href="{{sport7.roster_url}}"><h3>{{sport7.name}}</h3></a>
             </div>
-            <div class="col-md-5  customGrid">
-                <a href="{{sport23.roster_url}}"><h3 style="text-align: center; color: #FCFCDE;">{{sport23.name}}</h3></a>
+            <div class="col-md-5  customDiv1">
+                <a href="{{sport18.roster_url}}"><h3>{{sport18.name}}</h3></a>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-5 col-md-offset-1"></div>
-            <div class="col-md-5  customGrid">
-                <a href="{{sport24.roster_url}}"><h3 style="text-align: center; color: #FCFCDE;">{{sport24.name}}</h3></a>
+            <div class="col-md-5 col-md-offset-1 customDiv1">
+                <a href="{{sport8.roster_url}}"><h3>{{sport8.name}}</h3></a>
+            </div>
+            <div class="col-md-5  customDiv1">
+                <a href="{{sport19.roster_url}}"><h3>{{sport19.name}}</h3></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5 col-md-offset-1 customDiv1">
+                <a href="{{sport9.roster_url}}"><h3>{{sport9.name}}</h3></a>
+            </div>
+            <div class="col-md-5  customDiv1">
+                <a href="{{sport20.roster_url}}"><h3>{{sport20.name}}</h3></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5 col-md-offset-1 customDiv1">
+                <a href="{{sport10.roster_url}}"><h3>{{sport10.name}}</h3></a>
+            </div>
+            <div class="col-md-5  customDiv1">
+                <a href="{{sport21.roster_url}}"><h3>{{sport21.name}}</h3></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5 col-md-offset-1 customDiv1">
+                <a href="{{sport11.roster_url}}"><h3>{{sport11.name}}</h3></a>
+            </div>
+            <div class="col-md-5  customDiv1">
+                <a href="{{sport22.roster_url}}"><h3>{{sport22.name}}</h3></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5 col-md-offset-1 customDiv1">
+                <a href="{{sport12.roster_url}}"><h3>{{sport12.name}}</h3></a>
+            </div>
+            <div class="col-md-5  customDiv1">
+                <a href="{{sport23.roster_url}}"><h3>{{sport23.name}}</h3></a>
             </div>
         </div>
         <div class="row">
             <div class="col-md-5 col-md-offset-1"></div>
-            <div class="col-md-5  customGrid">
-                <a href="{{sport25.roster_url}}"><h3 style="text-align: center; color: #FCFCDE;">{{sport25.name}}</h3></a>
+            <div class="col-md-5  customDiv1">
+                <a href="{{sport24.roster_url}}"><h3>{{sport24.name}}</h3></a>
             </div>
         </div>
         <div class="row">
             <div class="col-md-5 col-md-offset-1"></div>
-            <div class="col-md-5  customGrid">
-                <a href="{{sport26.roster_url}}"><h3 style="text-align: center; color: #FCFCDE;">{{sport26.name}}</h3></a>
+            <div class="col-md-5  customDiv1">
+                <a href="{{sport25.roster_url}}"><h3>{{sport25.name}}</h3></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5 col-md-offset-1"></div>
+            <div class="col-md-5  customDiv1">
+                <a href="{{sport26.roster_url}}"><h3>{{sport26.name}}</h3></a>
             </div>
         </div>
     </div>
 <style>
-    .customGrid {
-        padding-top: 5px; padding-bottom: 5px; border-bottom: 1px solid #eee;
-        border-right: 1px solid #eee; border-left: 1px solid #eee; border-top: 1px solid #eee;
-        box-shadow: 6px 6px 5px #888888; background-color: #3c3c3c; border-radius: 5px;
+    h2{
+        text-align: center;
+    }
+    h3{
+        text-align: center;
+        color: #FCFCDE;
     }
 </style>
 {% endblock %}
