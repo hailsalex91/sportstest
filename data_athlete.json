@@ -1,4 +1,5 @@
 [
+
 	{
 		"pk": 1,
 		"model": "roster.athlete",
@@ -9,13 +10,18 @@
             "gradYear": "Junior",
 			"age": 21,
 			"height": "5'11\"",
+            "favorite_food":"Spaghetti with Meatballs",
+            "details": "Maia was named to the 2012 ACC Honor Roll. She is majoring in Exercise and Sport Science and American Studies and participates in the Carolina Leadership Academy’s Rising Stars program. She played in three Carolina events this year and was the low Tar Heel, placing sixth at the Ruth’s Chris Tar Heel Invitational as a single she led Carolina to the team title. Her stroke average was a 76.44. Her low round was a 1-under 71 fired in the second round of the Ruth’s Chris Tar Heel Invitational.  Maia is a two-time golf ‘letter winner’ at Montgomery Blair High School in Silver Spring, Md. as a freshman and sophomore, she then attended Montverde Academy/Gary Gilchrist Golf Academy in Howey-in-the-Hills, Fla. as a junior and senior. Both of her parents are Swedish citizens and her favorite video game is Mario Kart.",
             "athlete_image":"http://image.cdnllnwnl.xosnetwork.com/pics33/100/FE/FESWQVBUSERRIOA.20130906184045.jpg",
 			"school_id": 1,
             "school_name": "Gary Gilchrist Academy",
             "school_city": "Takoma Park",
 			"school_state": "MD",
 			"school_country": "USA",
-            "school_url":"http://ggga.com"
+            "school_url":"http://ggga.com",
+            "twitter_handle":"uncwomensgolf",
+            "twitter_widgetID": "439951895113658370"
+
 		}
 	},
 	{
@@ -28,13 +34,17 @@
 			"gradYear": "Senior",
 			"age": 22,
 			"height": "5'8\"",
+            "favorite_food":"Hot Dogs",
+            "details":"Katherine was named the 2012 NGCA All-America Honorable Mention, she was selected to 2012 All-ACC team and the 2012 All-ACC Academic Women’s Golf team. She participates in the Carolina Leadership Academy’s Veteran Leaders program and Carolina Outreach.  Katherine played in 10 of Carolina’s tournaments, carded five top twenty and seven top thirty finishes. She was the top Tar Heel at three spring tournaments tied for eighth at NCAA Championships. Katherine was a four-time golf ‘letter winner’ and team MVP at Athens Drive High School. In 2009 she was The N.C. High School 4-A Women’s Golf Champion. She is a four-time all-conference, four-time all-region and four-time all-state golfer and was named Women’s Athlete of the Year for her high school as a senior. Katherine was a member of National Honor Society and Honor Scholar.",
             "athlete_image":"http://image.cdnllnwnl.xosnetwork.com/pics33/100/KO/KOCYFPAPMLTRVLH.20130906184045.jpg",
 			"school_id": 2,
             "school_name": "Athens Drive",
             "school_city": "Cary",
 			"school_state": "NC",
 			"school_country": "USA" ,
-            "school_url":"http://athensdrivehs.wcpss.net"
+            "school_url":"http://athensdrivehs.wcpss.net",
+            "twitter_handle":"kateperr",
+            "twitter_widgetID": "440285070419447808"
 		}
 	},
     {
@@ -47,13 +57,17 @@
 			"gradYear": "Freshman",
 			"age": 19,
 			"height": "5'2\"",
+            "details": "Anne was selected to the 2013 All-ACC team and also received The 2013 Golfweek All-America Honorable Mention. Anne carded five top ten finishes and eight top twenty finishes and played in all 11 of Carolina’s tournaments last year, including one as an individual. Her top performance came at the ACC Championships where she placed fifth to lead the Tar Heels to a runner-up finish. Last year Anne also led the Tar Heels tying for eighth at the Mason Rudolph Fall Preview and the Tar Heel Invitational. In high school, Anne was a four-year golf ‘letter winner’ at Page High School, the 2011 North Carolina State 5A Girls Golf Champion and the runner-up in 2012. She is a three-time regional champion, a three-time district champion and a four- time MVP of Page High School in Greensboro.",
+            "favorite_food":"Korean BBQ",
             "athlete_image":"http://image.cdnllnwnl.xosnetwork.com/pics33/100/WF/WFVFXXLDUAINXLF.20130906184045.jpg",
 			"school_id": 3,
             "school_name": "Page High School",
             "school_city": "Greensboro",
 			"school_state": "NC",
 			"school_country": "USA",
-            "school_url":"http://schoolcenter.gcsnc.com/education/components/scrapbook/default.php?sectiondetailid=79233"
+            "school_url":"http://schoolcenter.gcsnc.com/education/components/scrapbook/default.php?sectiondetailid=79233",
+            "twitter_handle":"AnneOsteen",
+            "twitter_widgetID": "440285871795740672"
 		}
 	},
     {
@@ -66,16 +80,20 @@
 			"gradYear": "Sophomore",
 			"age": 20,
 			"height": "5'6\"",
+            "details": "Samantha played in the first fall tournament, the Cougar Classic, and tied for 93rd place last year. Her top performance came at the Ruth’s Chris Tar Heel Invitational where she played as an individual and tied for 24th place, shooting just 2-over-par in the second and third rounds. Samantha concluded the fall with a 75.67 stroke average. In her Amateur career, she is the 2011 and 2012 Junior Deutsche Bank Champion, and qualified for 2012 U.S. Open. In high school she was a six-time golf ‘letter winner’ at Lake Highland Prep and Circle Christian School. Her parents are Roger and Sabrina Marks; she was born May 2, 1994.",
+            "favorite_food":"Sushi",
             "athlete_image":"http://image.cdnllnwnl.xosnetwork.com/pics33/100/GC/GCSNNAWEVPEDTJK.20130906184045.jpg",
 			"school_id": 4,
             "school_name": "Circle Christian School",
             "school_city": "Maitland",
 			"school_state": "FL",
 			"school_country": "USA",
-            "school_url":"http://circlechristianschool.org"
+            "school_url":"http://circlechristianschool.org",
+            "twitter_handle":"sammymarks__187",
+            "twitter_widgetID": "440286276550262784"
 		}
 	},
-{
+    {
 		"pk": 5,
 		"model": "roster.athlete",
 		"fields": {
@@ -85,13 +103,17 @@
 			"gradYear": "Sophomore",
 			"age": 20,
 			"height": "5'7\"",
+            "details": "Elizabeth played in all four of Carolina’s tournaments last year. Her top performances were a tie for 15th place at the Ruth’s Chris Tar Heel Invitational and a tie for 26th at the Liz Murphey Fall Preview. She also tied for 36th at the Cougar Classic and tied for 51st at the Mason Rudolph Championship, concluding the fall with a 74.83 stroke average. In her spare time, Elizabeth participates in the Carolina Leadership Academy’s CREED Mentor program. In high school she was a four-year golf ‘letter winner’ at Sutton Coldfield School, a 2011 silver medalist at European Girls Team Championship, the 2011 Nottinghamshire Girls Open Champion and the 2011 Warwickshire School Girls Champion. When asked, “If she could spend three hours doing one thing, what would it be?” She answered. “Practicing Golf.”",
+            "favorite_food":"Lasagna",
             "athlete_image": "http://image.cdnllnwnl.xosnetwork.com/pics33/100/UP/UPBUQHFUDGVBOIJ.20130906184045.jpg",
 			"school_id": 5,
             "school_name": "Sutton Coldfield",
             "school_city": "Sutton Coldfield",
 			"school_state": "",
 			"school_country": "England",
-            "school_url":""
+            "school_url":"",
+            "twitter_handle":"pops212",
+            "twitter_widgetID": "440286679052464130"
 		}
 	},
     {
@@ -104,13 +126,17 @@
 			"gradYear": "Freshman",
 			"age": 19,
 			"height": "5'7\"",
+            "details": "Rachel was named to 2013 ACC Honor Roll and played in nine of Carolina’s tournaments, competing as an individual in four. Her top performance was a tie for 12th place at the Cougar Classic; she also tied for 31st at the LSU Golf Classic and tied for 38th at the Darius Rucker Intercollegiate, playing as an individual in both. Rachel is a 2013 NGCA All- America Scholar. She was also named to 2013 All-ACC Academic Women’s Golf Team. Rachel participates in Carolina Leadership Academy’s Veteran Leaders program. She is majoring in Psychology and Exercise & Sport Science. In high school, Rachel was a four-year ‘letter winner’ at Southwestern Randolph High School and won the N.C. 1A/2A/3A State High School Championship three years in a row.",
+            "favorite_food":"Mac-n-Cheese",
             "athlete_image":"http://image.cdnllnwnl.xosnetwork.com/pics33/100/BZ/BZDBAHUGNHZWYDR.20130906184045.jpg",
 			"school_id": 6,
             "school_name": "Southwestern Randolph",
             "school_city": "Winston Salem",
 			"school_state": "NC",
 			"school_country": "USA",
-            "school_url":"http://www.randolph.k12.nc.us/schools/swrhs/Pages/Default.aspx"
+            "school_url":"http://www.randolph.k12.nc.us/schools/swrhs/Pages/Default.aspx",
+            "twitter_handle":"_racheljay",
+            "twitter_widgetID": "440287014382891008"
 		}
 	},
     {
@@ -123,13 +149,17 @@
 			"gradYear": "Freshman",
 			"age": 19,
 			"height": "5'8\"",
+            "details": "Leslie was named to 2013 ACC Honor Roll and played in nine of Carolina’s tournaments, competing as an individual in all nine of them. She is a Global Studies and Public Policy double major, and participates in the Carolina Leadership Academy’s Veteran Leaders program. Her top performance came at the ACC Championships where she placed sixth to help lead the Tar Heels to a runner-up finish. Last year Leslie also led the Tar Heels tying for eighth at the Mason Rudolph Fall Preview and the Tar Heel Invitational. In high school, she was a four-year golf ‘letter winner’ at Antwerp International Academy, and the 2012 gold medalist at European Girls Team Championship. When she is not digging herself out of sand traps, Leslie enjoys looking at the different shapes that clouds can make. ",
+            "favorite_food":"Pulled Pork",
             "athlete_image": "http://image.cdnllnwnl.xosnetwork.com/pics33/100/FY/FYWOOJCVJEOJWJN.20130906184045.jpg",
 			"school_id": 7,
             "school_name": "Antwerp International",
             "school_city": "Antwerp",
 			"school_state": "",
 			"school_country": "Belgium",
-            "school_url":"http://www.ais-antwerp.be"
+            "school_url":"http://www.ais-antwerp.be",
+            "twitter_handle":"uncwomensgolf",
+            "twitter_widgetID": "439951895113658370"
 		}
 	},
     {
@@ -138,17 +168,21 @@
 		"fields": {
 			"pid": 714821007,
 			"firstName": "Jackie",
-            "lastName": "Change",
+            "lastName": "Chang",
 			"gradYear": "Senior",
 			"age": 22,
 			"height": "5'6\"",
+            "details": "Jackie was named to the 2012 ACC Honor Roll and is a participant in the Carolina Leadership Academy’s Rising Stars program and the Carolina Outreach Retention/ Mentoring committee for the 2011-12 Relay for Life. Jackie is a Junior majoring in Global Studies and Anthropology. Last year Jackie played in nine of Carolina’s tournaments, posted three top twenty finishes and six top thirty finishes. She led the Tar Heels with a fifth-place finish at the Cougar Classic, firing a 6-under-par 210 total. In high school, Jackie was a four-time golf ‘letter winner’ at Notre Dame Preparatory in Scottsdale, Ariz. She won many of her high school matches and was champion of the 2008 and the 2009 4A DII State and Regional Tournaments.",
+            "favorite_food":"Tofu Sandwiches",
             "athlete_image": "http://image.cdnllnwnl.xosnetwork.com/pics33/100/HL/HLBNXKVEAYQOELB.20130906184045.jpg",
 			"school_id": 8,
             "school_name": "Notre Dame Prep",
             "school_city": "Scottsdale",
 			"school_state": "AZ",
 			"school_country": "USA",
-            "school_url":"http://www.notredamepreparatory.org"
+            "school_url":"http://www.notredamepreparatory.org",
+            "twitter_handle":"jackiechang",
+            "twitter_widgetID": "440287608359235584"
 		}
 	}
 ]

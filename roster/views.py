@@ -1,6 +1,6 @@
 from django.shortcuts import render, get_object_or_404
 from django.http import HttpResponse
-from models import athlete, school, coach, golfImage
+from models import athlete, school, coach, golfImage, statistics
 from django.core.paginator import Paginator, PageNotAnInteger, EmptyPage
 
 def home(request):
@@ -31,8 +31,17 @@ def home(request):
     return render(request, 'roster/home.html', context)
 def athleteView(request, pk):
     #My list of athletes is linking to an individual athlete's page
+
     theAthlete = get_object_or_404(athlete, pid=pk)
-    return render(request, "roster/athlete.html", {'athlete':theAthlete})
+    image_url = golfImage.objects.order_by('?')[0]
+    stats = statistics.objects.all()
+    context={
+        'athlete':theAthlete,
+        'image': image_url,
+        'stats': stats
+    }
+
+    return render(request, "roster/athlete.html", context)
 def athleteList(request):
     #NEED TO PASS A SCHOOL TO BE ABLE TO GET THE SCHOOL NAME FOR AN ATHLETE
     athlete1 = athlete.objects.get(pid=714821000)

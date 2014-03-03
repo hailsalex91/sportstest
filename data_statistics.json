@@ -1,0 +1,162 @@
+[
+    {
+        "pk": 1,
+        "model": "roster.statistics",
+        "fields": {
+            "pid": 714821000,
+            "firstName": "Maia",
+            "lastName": "Schechter",
+            "tournaments": 3,
+            "rounds": 9,
+            "rounds_completed": 2,
+            "completion_pct": 22.2,
+            "par": 0,
+            "below_par": 1,
+            "sixties": 0,
+            "low": 71,
+            "high": 88,
+            "strokes": 706,
+            "average": 78.44
+        }
+    },
+    {
+        "pk": 2,
+        "model": "roster.statistics",
+        "fields": {
+            "pid": 714821001,
+            "firstName": "Katherine",
+            "lastName": "Perry",
+            "tournaments": 5,
+            "rounds": 15,
+            "rounds_completed": 14,
+            "completion_pct": 93.3,
+            "par": 1,
+            "below_par": 0,
+            "sixties": 0,
+            "low": 72,
+            "high": 84,
+            "strokes": 1126,
+            "average": 75.07
+        }
+    },
+    {
+        "pk": 3,
+        "model": "roster.statistics",
+        "fields": {
+            "pid": 714821002,
+            "firstName": "Anne Bennett",
+            "lastName": "Osteen",
+            "tournaments": 5,
+            "rounds": 15,
+            "rounds_completed": 14,
+            "completion_pct": 93.3,
+            "par": 0,
+            "below_par": 0,
+            "sixties": 0,
+            "low": 72,
+            "high": 83,
+            "strokes": 1124,
+            "average": 75.93
+        }
+    },
+    {
+        "pk": 4,
+        "model": "roster.statistics",
+        "fields": {
+            "pid": 714821003,
+            "firstName": "Samantha",
+            "lastName": "Marks",
+            "tournaments": 5,
+            "rounds": 15,
+            "rounds_completed": 13,
+            "completion_pct": 86.7,
+            "par": 0,
+            "below_par": 2,
+            "sixties": 0,
+            "low": 71,
+            "high": 87,
+            "strokes": 1139,
+            "average": 75.93
+        }
+    },
+    {
+        "pk": 5,
+        "model": "roster.statistics",
+        "fields": {
+            "pid": 714821004,
+            "firstName": "Elizabeth",
+            "lastName": "Mallett",
+            "tournaments": 5,
+            "rounds": 15,
+            "rounds_completed": 14,
+            "completion_pct": 93.3,
+            "par": 0,
+            "below_par": 1,
+            "sixties": 1,
+            "low": 69,
+            "high": 79,
+            "strokes": 1114,
+            "average": 74.27
+        }
+    },
+    {
+        "pk": 6,
+        "model": "roster.statistics",
+        "fields": {
+            "pid": 714821005,
+            "firstName": "Rachel",
+            "lastName": "Jones",
+            "tournaments": 5,
+            "rounds": 15,
+            "rounds_completed": 14,
+            "completion_pct": 93.3,
+            "par": 0,
+            "below_par": 0,
+            "sixties": 0,
+            "low": 70,
+            "high": 85,
+            "strokes": 1126,
+            "average": 75.07
+        }
+    },
+    {
+        "pk": 7,
+        "model": "roster.statistics",
+        "fields": {
+            "pid": 714821006,
+            "firstName": "Leslie",
+            "lastName": "Choots",
+            "tournaments": 4,
+            "rounds": 12,
+            "rounds_completed": 5,
+            "completion_pct": 41.7,
+            "par": 0,
+            "below_par": 0,
+            "sixties": 0,
+            "low": 72,
+            "high": 80,
+            "strokes": 908,
+            "average": 75.67
+        }
+    },
+    {
+        "pk": 8,
+        "model": "roster.statistics",
+        "fields": {
+            "pid": 714821007,
+            "firstName": "Jackie",
+            "lastName": "Chang",
+            "tournaments": 5,
+            "rounds": 15,
+            "rounds_completed": 13,
+            "completion_pct": 86.7,
+            "par": 0,
+            "below_par": 2,
+            "sixties": 0,
+            "low": 70,
+            "high": 8,
+            "strokes": 1126,
+            "average": 75.07
+        }
+    }
+]

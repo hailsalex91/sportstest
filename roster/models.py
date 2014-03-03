@@ -1,6 +1,22 @@
 from django.db import models
 
 # Create your models here.
+class statistics(models.Model):
+    pid = models.IntegerField(unique=True, max_length=9)
+    firstName = models.CharField(unique=False, max_length=50)
+    lastName = models.CharField(unique=False, max_length=50)
+    tournaments = models.IntegerField(unique=False, max_length=10)
+    rounds = models.IntegerField(unique=False, max_length=10)
+    rounds_completed = models.IntegerField(unique=False, max_length=10)
+    completion_pct = models.IntegerField(unique=False, max_length=10)
+    par = models.IntegerField(unique=False, max_length=10)
+    below_par = models.IntegerField(unique=False, max_length=10)
+    sixties = models.IntegerField(unique=False, max_length=10)
+    low = models.IntegerField(unique=False, max_length=10)
+    high = models.IntegerField(unique=False, max_length=10)
+    strokes = models.IntegerField(unique=False, max_length=10)
+    average = models.IntegerField(unique=False, max_length=10)
+
 class athlete(models.Model):
     pid = models.IntegerField(unique=True, max_length=9)
     firstName = models.CharField(unique=False, max_length=50)
@@ -8,6 +24,8 @@ class athlete(models.Model):
     gradYear = models.CharField(unique=False, max_length=50)
     age = models.IntegerField(unique=False, max_length=9)
     height = models.CharField(unique=False, max_length=50)
+    favorite_food = models.CharField(unique=False, max_length=50)
+    details = models.TextField(unique=False)
     athlete_image = models.CharField(unique=False, max_length=200)
     school_id = models.IntegerField(unique=False, max_length=9)
     school_name = models.CharField(unique=False, max_length=200)
@@ -15,6 +33,8 @@ class athlete(models.Model):
     school_state = models.CharField(unique=False, max_length=50)
     school_country = models.CharField(unique=False, max_length=50)
     school_url = models.CharField(unique=False, max_length=200)
+    twitter_handle = models.CharField(unique=False, max_length=50)
+    twitter_widgetID = models.CharField(unique=False, max_length=50)
 
     class meta(object):
         verbose_name_plural = "Athletes"

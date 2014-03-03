@@ -1,19 +1,73 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title></title>
-</head>
-<body>
+{% extends "base.html" %}
 <!--
-<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/uncwomensgolf" data-widget-id="439951895113658370">Tweets by @uncwomensgolf</a>
+    Need to add details, stats, and twitter info to athlete model
 -->
-<div style="text-align: center;">
-    <a class="twitter-timeline" height="300" width="325" href="https://twitter.com/uncwomensgolf" data-widget-id="439951895113658370">Tweets by @uncwomensgolf</a>
-</div>
 
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-
-<p>{{ athlete.lastName }}</p>
-</body>
-</html>
+{% block content %}
+    <hr>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="col-md-8" style="padding-top: 1%;">
+                <div class="col-md-4" style="padding-right: 0px; padding-right: 2%; float: left;">
+                    <a href="{{ athlete.pid }}"> <img src="{{ athlete.athlete_image }}" class="img-rounded img-thumbnail"
+                    style="height: 100%; width: 100%; border-color: #3c3c3c"></a>
+                </div>
+                <p class="text-justify">
+                    <b>Name: </b> {{ athlete.lastName }}, {{ athlete.firstName }} <br>
+                    <b>School: </b>{{ athlete.school_name}}<br>
+                    <b>Hometown: </b>{{ athlete.school_city }}, {{ athlete.school_state }}, {{ athlete.school_country }}<br>
+                    <b>Year: </b>{{ athlete.gradYear }}<br>
+                    <b>Age: </b>{{ athlete.age }}<br>
+                    <b>Height: </b>{{athlete.height}}<br>
+                    <b>Favorite Food: </b>{{athlete.favorite_food}}<br>
+                    <b>Get To Know {{athlete.firtsName}}</b><br>
+                    {{athlete.details}}
+                </p>
+            </div>
+            <div class="col-md-4">
+                <div style="text-align: center; padding-top: 4%;">
+                    <a class="twitter-timeline" height="350" width="375" href="https://twitter.com/{{athlete.twitter_handle}}" data-widget-id="{{athlete.twitter_widgetID}}">Tweets by @{{athlete.twitter_handle}}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="col-md-12">
+        <table class="table table-striped">
+            <tr>
+                <th></th>
+                <th>Tournaments</th>
+                <th>Rounds</th>
+                <th>Completion %</th>
+                <th>Par</th>
+                <th>Below Par</th>
+                <th>60s</th>
+                <th>Low</th>
+                <th>High</th>
+                <th>Strokes</th>
+                <th>Average</th>
+            </tr>
+            {% for stat in stats %}
+            <tr>
+                <td>{{stat.firstName}} {{stat.lastName}}</td>
+                <td>{{stat.tournaments}}</td>
+                <td>{{stat.rounds}}</td>
+                <td>{{stat.completion_pct}} ({{stat.rounds_completed}}/{{stat.rounds}})</td>
+                <td>{{stat.par}}</td>
+                <td>{{stat.below_par}}</td>
+                <td>{{stat.sixties}}</td>
+                <td>{{stat.low}}</td>
+                <td>{{stat.high}}</td>
+                <td>{{stat.strokes}}</td>
+                <td>{{stat.average}}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    <style>
+        td{
+            text-align: center;
+        }
+    </style>
+{% endblock %}
