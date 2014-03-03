@@ -66,6 +66,7 @@ class coach(models.Model):
     title = models.CharField(unique=False, max_length=50)
     isActive = models.BooleanField()
     athlete_image = models.CharField(unique=False, max_length=200)
+    details = models.TextField(unique=False)
 
     class meta(object):
         verbose_name_plural = "Coaches"
