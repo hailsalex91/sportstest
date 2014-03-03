@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <div class="row hidden-phone" style="text-align: center; margin: auto;">
+    <div class="row hidden-xs" style="text-align: center; margin: auto;">
         <div class="img-thumbnail pagination-centered" style="background-color: #FCFCEE; min-width: 100%; border-right: none; border-left: none;">
             <img style="max-width: 80%; height: auto; width: 100%; max-height: 400px; border-radius: 5px;"
                  src="{{ image.url_id }}" alt="header" />
@@ -211,9 +211,9 @@
         </div>
         <hr>
         <div class="row" style="padding-bottom: 1%;">
-            <div class="col-md-5 col-md-offset-1 customDiv1">
+            <div class="col-md-5 col-md-offset-1 customDiv1" style="padding-bottom: 5%;">
                 <div class="col-md-1" style="padding-right: 0px; padding-top: 10px;">
-                    <a href="{% url 'roster_home' %}coaches{{ coach1.pid }}"> <img src="{{ coach1.athlete_image }}" class="img-rounded" style="max-height: 440%; max-width: 440%;"></a>
+                    <a href="{% url 'roster_home' %}coaches{{ coach1.pid }}"> <img src="{{ coach1.athlete_image }}" class="img-rounded imgDetail"></a>
                 </div>
                 <div class="col-md-11" style="font-size: smaller; color: #FCFCDE;">
                     <dl class="dl-horizontal">
@@ -225,9 +225,9 @@
                     </dl>
                 </div>
             </div>
-            <div class="col-md-5 customDiv1">
+            <div class="col-md-5 customDiv1" style="padding-bottom: 5%;">
                 <div class="col-md-1" style="padding-right: 0px; padding-top: 10px;">
-                    <a href="{% url 'roster_home' %}coaches{{ coach2.pid }}"> <img src="{{ coach2.athlete_image }}" class="img-rounded" style="max-height: 440%; max-width: 440%;"></a>
+                    <a href="{% url 'roster_home' %}coaches{{ coach2.pid }}"> <img src="{{ coach2.athlete_image }}" class="img-rounded imgDetail"></a>
                 </div>
                 <div class="col-md-11" style="font-size: smaller; color: #FCFCDE;">
                     <dl class="dl-horizontal">
