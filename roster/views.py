@@ -85,10 +85,13 @@ def athleteList(request):
     athlete6 = athlete.objects.get(pid=714821005)
     athlete7 = athlete.objects.get(pid=714821006)
     athlete8 = athlete.objects.get(pid=714821007)
+    coach1 = coach.objects.get(pid=714000001)
+    coach2 = coach.objects.get(pid=714000002)
 
     image_url = golfImage.objects.order_by('?')[0]
     context ={
-        #'athletes': athlete.objects.all(),
+        'coach1':coach1,
+        'coach2':coach2,
         'athlete1':athlete1,
         'athlete2':athlete2,
         'athlete3':athlete3,
@@ -103,6 +106,11 @@ def athleteList(request):
 def schoolView(request):
     theSchool = school.objects.order_by('?')[0]
     return render(request, "roster/school.html", {'school':theSchool})
-def coachView(request):
-    theCoach = coach.objects.order_by('?')[0]
-    return render(request, "roster/coach.html", {'coach': theCoach})
+def coachView(request, pk):
+    theCoach = get_object_or_404(coach, pid=pk)
+    stats = statistics.objects.all()
+    context = {
+        'coach':theCoach,
+        'stats': stats
+    }
+    return render(request, "roster/coach.html", context)

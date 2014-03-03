@@ -8,7 +8,7 @@
                  src="{{ image.url_id }}" alt="header" />
         </div>
     </div>
-    <h2 style="text-align: center;">Women's Golf Team</h2>
+    <h2 style="text-align: center;">Meet The Team..</h2>
 
         <div class="row" style="padding-bottom: 10px;">
             <div class="col-md-5 col-md-offset-1" style="padding-top: 5px; padding-bottom: 5px; border-bottom: 1px solid #eee;
@@ -222,6 +222,41 @@
                         <dt>Favorite Food:</dt>
                            <dd>{{athlete8.favorite_food}}</dd>
                         <dt><a href="{{ athlete8.pid }}" style="color: #56A0D3;">Full Bio...</a> </dt>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row" style="padding-bottom: 10px">
+            <div class="col-md-5 col-md-offset-1" style="padding-top: 5px; padding-bottom: 5px; border-bottom: 1px solid #eee;
+            border-right: 1px solid #eee; border-left: 1px solid #eee; border-top: 1px solid #eee;
+            box-shadow: 6px 6px 5px #888888; background-color: #3c3c3c; border-radius: 5px;">
+                <div class="col-md-1" style="padding-right: 0px; padding-top: 10px;">
+                    <a href="{{ coach1.pid }}"> <img src="{{ coach1.athlete_image }}" class="img-rounded" style="max-height: 440%; max-width: 440%;"></a>
+                </div>
+                <div class="col-md-11" style="padding-left: 0px; padding-right: 0px; font-size: smaller; color: #FCFCDE;">
+                    <dl class="dl-horizontal">
+                        <dt>Name:</dt>
+                            <dd><a href="{% url 'roster_home' %}">{{ coach1.lastName }}, {{ coach1.firstName }}</a></dd>
+                        <dt>Title:</dt>
+                            <dd>{{ coach1.title }}</dd>
+                        <dt><a href="{{ coach1.pid }}" style="color: #56A0D3;">Full Bio...</a> </dt>
+                    </dl>
+                </div>
+            </div>
+            <div class="col-md-5" style="padding-top: 5px; padding-bottom: 5px; border-bottom: 1px solid #eee;
+            border-right: 1px solid #eee; border-left: 1px solid #eee; border-top: 1px solid #eee;
+            box-shadow: 6px 6px 5px #888888; background-color: #3c3c3c; border-radius: 5px;">
+                <div class="col-md-1" style="padding-right: 0px; padding-top: 10px;">
+                    <a href="{{ coach2.pid }}"> <img src="{{ coach2.athlete_image }}" class="img-rounded" style="max-height: 440%; max-width: 440%;"></a>
+                </div>
+                <div class="col-md-11" style="padding-left: 0px; padding-right: 0px; font-size: smaller; color: #FCFCDE;">
+                    <dl class="dl-horizontal">
+                        <dt>Name:</dt>
+                            <dd><a href="{{ coach2.pid }}">{{ coach2.lastName }}, {{ coach2.firstName }}</a></dd>
+                        <dt>Title:</dt>
+                            <dd>{{ coach2.title }}</dd>
+                        <dt><a href="{{ coach2.pid }}" style="color: #56A0D3;">Full Bio...</a> </dt>
                     </dl>
                 </div>
             </div>

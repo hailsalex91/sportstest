@@ -7,7 +7,8 @@
 			"firstName": "Jann",
             "lastName": "Mann",
             "title": "Head Coach",
-			"isActive": true
+			"isActive": true,
+            "athlete_image": "http://image.cdnllnwnl.xosnetwork.com/pics33/400/BY/BYGUBJDAHKWBHII.20130906184045.jpg"
 		}
 	},
     {
@@ -18,7 +19,8 @@
 			"firstName": "Leah",
             "lastName": "Wigger",
             "title": "Assistant Head Coach",
-		 	"isActive": true
+		 	"isActive": true,
+            "athlete_image": "http://image.cdnllnwnl.xosnetwork.com/pics33/640/HN/HNGAQZGQZXRZCCP.20130906184045.jpg"
 		}
 	}
 ]
