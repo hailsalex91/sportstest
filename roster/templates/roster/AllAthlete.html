@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <div class="row" style="text-align: center; margin: auto;">
+    <div class="row hidden-phone" style="text-align: center; margin: auto;">
         <div class="img-thumbnail pagination-centered" style="background-color: #FCFCEE; min-width: 100%; border-right: none; border-left: none;">
             <img style="max-width: 80%; height: auto; width: 100%; max-height: 400px; border-radius: 5px;"
                  src="{{ image.url_id }}" alt="header" />
@@ -9,7 +9,7 @@
     </div>
     <h2 style="text-align: center;">Meet The Team..</h2>
 
-        <div class="row" style="padding-bottom: 10px;">
+        <div class="row" style="padding-bottom: 1%;">
             <div class="col-md-5 col-md-offset-1 customDiv1">
                 <div class="col-md-1" style="padding-top: 10px;">
                     <a href="{{ athlete1.pid }}"> <img src="{{ athlete1.athlete_image }}" class="img-rounded"></a>
@@ -59,7 +59,7 @@
                 </div>
             </div>
         </div>
-        <div class="row" style="padding-bottom: 10px">
+        <div class="row" style="padding-bottom: 1%;">
             <div class="col-md-5 col-md-offset-1 customDiv1">
                 <div class="col-md-1" style="padding-top: 10px;">
                     <a href="{{ athlete3.pid }}"> <img src="{{ athlete3.athlete_image }}" class="img-rounded"></a>
@@ -109,7 +109,7 @@
                 </div>
             </div>
         </div>
-        <div class="row" style="padding-bottom: 10px">
+        <div class="row" style="padding-bottom: 1%;">
             <div class="col-md-5 col-md-offset-1 customDiv1">
                 <div class="col-md-1" style="padding-top: 10px;">
                     <a href="{{ athlete5.pid }}"> <img src="{{ athlete5.athlete_image }}" class="img-rounded"></a>
@@ -121,7 +121,7 @@
                         <dt>School:</dt>
                             <dd><a href="{{ athlete5.school_url }}">{{ athlete5.school_name}}</a></dd>
                         <dt>Hometown:</dt>
-                            <dd>{{ athlete5.school_city }}, {{ athlete5.school_state }}, {{ athlete5.school_country }}</dd>
+                            <dd>{{ athlete5.school_city }}, {{ athlete5.school_country }}</dd>
                         <dt>Year:</dt>
                             <dd>{{ athlete5.gradYear }}</dd>
                         <dt>Age:</dt>
@@ -159,7 +159,7 @@
                 </div>
             </div>
         </div>
-        <div class="row" style="padding-bottom: 10px">
+        <div class="row" style="padding-bottom: 1%;">
             <div class="col-md-5 col-md-offset-1 customDiv1">
                 <div class="col-md-1" style="padding-top: 10px;">
                     <a href="{{ athlete7.pid }}"> <img src="{{ athlete7.athlete_image }}" class="img-rounded"></a>
@@ -210,12 +210,12 @@
             </div>
         </div>
         <hr>
-        <div class="row" style="padding-bottom: 10px">
+        <div class="row" style="padding-bottom: 1%;">
             <div class="col-md-5 col-md-offset-1 customDiv1">
                 <div class="col-md-1" style="padding-right: 0px; padding-top: 10px;">
                     <a href="{% url 'roster_home' %}coaches{{ coach1.pid }}"> <img src="{{ coach1.athlete_image }}" class="img-rounded" style="max-height: 440%; max-width: 440%;"></a>
                 </div>
-                <div class="col-md-11" style="padding-left: 0px; padding-right: 0px; font-size: smaller; color: #FCFCDE;">
+                <div class="col-md-11" style="font-size: smaller; color: #FCFCDE;">
                     <dl class="dl-horizontal">
                         <dt>Name:</dt>
                             <dd><a href="{% url 'roster_home' %}coaches{{ coach1.pid }}">{{ coach1.lastName }}, {{ coach1.firstName }}</a></dd>
@@ -229,7 +229,7 @@
                 <div class="col-md-1" style="padding-right: 0px; padding-top: 10px;">
                     <a href="{% url 'roster_home' %}coaches{{ coach2.pid }}"> <img src="{{ coach2.athlete_image }}" class="img-rounded" style="max-height: 440%; max-width: 440%;"></a>
                 </div>
-                <div class="col-md-11" style="padding-left: 0px; padding-right: 0px; font-size: smaller; color: #FCFCDE;">
+                <div class="col-md-11" style="font-size: smaller; color: #FCFCDE;">
                     <dl class="dl-horizontal">
                         <dt>Name:</dt>
                             <dd><a href="{% url 'roster_home' %}coaches{{ coach2.pid }}">{{ coach2.lastName }}, {{ coach2.firstName }}</a></dd>
