@@ -1,7 +1,7 @@
 [
 	{
 		"pk":2,
-		"model":"roster.team",
+		"model":"roster.sports",
 		"fields":{
 			"name":"Basketball",
 			"gender": "Men's",
@@ -12,7 +12,7 @@
 
 	{
 		"pk":3,
-		"model":"roster.team",
+		"model":"roster.sports",
 		"fields":{
 			"name":"Cross Coutntry",
 			"gender": "Men's",
@@ -24,7 +24,7 @@
 
 	{
 		"pk":4,
-		"model":"roster.team",
+		"model":"roster.sports",
 		"fields":{
 			"name":"Fencing",
 			"gender":"Men's",
@@ -35,7 +35,7 @@
 
 	{
 		"pk":5,
-		"model":"roster.team",
+		"model":"roster.sports",
 		"fields":{
 			"name":"Football",
 			"gender":"Men's",
@@ -47,7 +47,7 @@
 
 	{
 		"pk":6,
-		"model":"roster.team",
+		"model":"roster.sports",
 		"fields":{
 			"name":"Golf",
 			"gender":"Men's",
@@ -59,7 +59,7 @@
 
 	{
 		"pk":7,
-		"model":"roster.team",
+		"model":"roster.sports",
 		"fields":{
 			"name":"Lacrosse",
 			"gender":"Men's",
@@ -71,7 +71,7 @@
 
 	{
 		"pk":8,
-		"model":"roster.team",
+		"model":"roster.sports",
 		"fields":{
 			"name":"Soccer",
 			"gender":"Men's",
@@ -83,7 +83,7 @@
 
 	{
 		"pk":9,
-		"model":"roster.team",
+		"model":"roster.sports",
 		"fields":{
 			"name":"Swimming & Diving",
 			"gender":"Men's",
@@ -95,7 +95,7 @@
 
 	{
 		"pk":10,
-		"model":"roster.team",
+		"model":"roster.sports",
 		"fields":{
 			"name":"Tennis",
 			"gender":"Men's",
@@ -107,7 +107,7 @@
 
 	{
 		"pk":11,
-		"model":"roster.team",
+		"model":"roster.sports",
 		"fields":{
 			"name":"Track & Field",
 			"gender":"Men's",
@@ -119,7 +119,7 @@
 
 	{
 		"pk":12,
-		"model":"roster.team",
+		"model":"roster.sports",
 		"fields":{
 			"name":"Wrestling",
 			"gender":"Men's",
@@ -131,7 +131,7 @@
 
 		{
 		"pk":13,
-		"model":"roster.team",
+		"model":"roster.sports",
 		"fields":{
 			"name":"Basketball",
 			"gender":"Women's",
@@ -143,7 +143,7 @@
 
 	{
 		"pk":14,
-		"model":"roster.team",
+		"model":"roster.sports",
 		"fields":{
 			"name":"Field Hockey",
 			"gender":"Women's",
@@ -155,7 +155,7 @@
 
 	{
 		"pk":15,
-		"model":"roster.team",
+		"model":"roster.sports",
 		"fields":{
 			"name":"Golf",
 			"gender":"Women's",
@@ -167,7 +167,7 @@
 
 		{
 		"pk":16,
-		"model":"roster.team",
+		"model":"roster.sports",
 		"fields":{
 			"name":"Gymnastics",
 			"gender":"Women's",
@@ -179,7 +179,7 @@
 
 		{
 		"pk":17,
-		"model":"roster.team",
+		"model":"roster.sports",
 		"fields":{
 			"name":"Lacrosse",
 			"gender":"Women's",
@@ -191,7 +191,7 @@
 
 		{
 		"pk":18,
-		"model":"roster.team",
+		"model":"roster.sports",
 		"fields":{
 			"name":"Rowing",
 			"gender":"Women's",
@@ -203,7 +203,7 @@
 
 		{
 		"pk":19,
-		"model":"roster.team",
+		"model":"roster.sports",
 		"fields":{
 			"name":"Soccer",
 			"gender":"Women's",
@@ -215,7 +215,7 @@
 
 		{
 		"pk":20,
-		"model":"roster.team",
+		"model":"roster.sports",
 		"fields":{
 			"name":"Softball",
 			"gender":"Women's",
@@ -227,7 +227,7 @@
 
 		{
 		"pk":21,
-		"model":"roster.team",
+		"model":"roster.sports",
 		"fields":{
 			"name":"Tennis",
 			"gender":"Women's",
@@ -239,7 +239,7 @@
 
 		{
 		"pk":22,
-		"model":"roster.team",
+		"model":"roster.sports",
 		"fields":{
 			"name":"Volleyball",
 			"gender":"Women's",
@@ -251,7 +251,7 @@
 
 	{
 		"pk":23,
-		"model":"roster.team",
+		"model":"roster.sports",
 		"fields":{
 			"name":"Cross Coutntry",
 			"gender": "Women's",
@@ -262,7 +262,7 @@
 	},
 		{
 		"pk":24,
-		"model":"roster.team",
+		"model":"roster.sports",
 		"fields":{
 			"name":"Fencing",
 			"gender":"Women's",
@@ -272,7 +272,7 @@
 	},
 		{
 		"pk":25,
-		"model":"roster.team",
+		"model":"roster.sports",
 		"fields":{
 			"name":"Swimming & Diving",
 			"gender":"Women's",
@@ -284,7 +284,7 @@
 
 		{
 		"pk":26,
-		"model":"roster.team",
+		"model":"roster.sports",
 		"fields":{
 			"name":"Track & Field",
 			"gender":"Women's",

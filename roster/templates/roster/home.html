@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 {% extends "base.html" %}
-{% load humanize %}
 
 {% block content %}
-<h2>Helloworld</h2>
-<p>There are {{ athlete_count|intcomma }} athletes from {{ school_count|intcomma }} schools.
-    All of them are being supervised by {{ coach_count|intcomma }} coaches.</p>
+        {% for sport in  %}
 {% endblock %}

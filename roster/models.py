@@ -17,6 +17,12 @@ class statistics(models.Model):
     strokes = models.IntegerField(unique=False, max_length=10)
     average = models.IntegerField(unique=False, max_length=10)
 
+class sports(models.Model):
+    name = models.CharField(unique=False, max_length=50)
+    gender = models.CharField(unique=False, max_length=50)
+    url = models.TextField(unique=False)
+    roster_url = models.TextField(unique=False)
+
 class athlete(models.Model):
     pid = models.IntegerField(unique=True, max_length=9)
     firstName = models.CharField(unique=False, max_length=50)

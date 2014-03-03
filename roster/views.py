@@ -1,31 +1,14 @@
 from django.shortcuts import render, get_object_or_404
 from django.http import HttpResponse
-from models import athlete, school, coach, golfImage, statistics
+from models import athlete, school, coach, golfImage, statistics, sports
 from django.core.paginator import Paginator, PageNotAnInteger, EmptyPage
 
 def home(request):
-    '''
-    class Athlete(object):
-        def __init__(self,):
-            pass
-            #Should I make objects using the data in my models and pass them
-            #to my view?
-            #How do i create an object that contains data from 2 different models
-    class ObjectList(object):
-        def __init__(self,athletes,schools):
-            self.athletes = athletes
-            self.schools = schools
-        def genTableData(self):
-            athleteList = []
-            for athlete in self.athletes:
-                pass
-    '''
     image_url = golfImage.objects.order_by('?')[0]
+    teams = sports.objects.all()
     context={
-        'athlete_count': athlete.objects.count(),
-        'school_count': school.objects.count(),
-        'coach_count': coach.objects.count(),
-        'image': image_url
+        'image': image_url,
+        'sports': teams
     }
 
     return render(request, 'roster/home.html', context)
